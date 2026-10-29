@@ -1,0 +1,15 @@
+{
+ "frames": 1440,
+ "approaches": 24,
+ "demand": "medium",
+ "seed": 7,
+ "precision": 0.999,
+ "recall": 0.902,
+ "f1": 0.948,
+ "count_mae": 0.058,
+ "queue_mae_in_view": 0.037,
+ "queue_bias_in_view": -0.01,
+ "queue_mae_whole_approach": 0.042,
+ "mean_confidence": 0.988,
+ "note": "Scored on rendered simulation frames, not real CCTV footage."
+}

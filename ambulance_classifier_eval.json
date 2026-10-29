@@ -1,0 +1,131 @@
+{
+ "test_crops": 909,
+ "test_ambulances": 103,
+ "classifier_only": {
+  "precision": 0.945,
+  "recall": 0.835,
+  "f1": 0.887,
+  "false_alarm_rate": 0.0062,
+  "tp": 86,
+  "fp": 5,
+  "fn": 17,
+  "tn": 801
+ },
+ "text_only": {
+  "precision": 0.974,
+  "recall": 0.369,
+  "f1": 0.535,
+  "false_alarm_rate": 0.0012,
+  "tp": 38,
+  "fp": 1,
+  "fn": 65,
+  "tn": 805
+ },
+ "light_bar_livery_only (previous cues)": {
+  "precision": 0.208,
+  "recall": 0.146,
+  "f1": 0.171,
+  "false_alarm_rate": 0.0707,
+  "tp": 15,
+  "fp": 57,
+  "fn": 88,
+  "tn": 749
+ },
+ "fusion": {
+  "precision": 0.946,
+  "recall": 0.854,
+  "f1": 0.898,
+  "false_alarm_rate": 0.0062,
+  "tp": 88,
+  "fp": 5,
+  "fn": 15,
+  "tn": 801
+ },
+ "type_accuracy": 0.9296,
+ "per_class_recall": {
+  "ambulance": 0.835,
+  "auto_rickshaw": 0.9,
+  "bus": 0.928,
+  "car": 0.954,
+  "emergency_other": 0.909,
+  "motorcycle": 0.929
+ },
+ "confusion": {
+  "ambulance": {
+   "ambulance": 86,
+   "auto_rickshaw": 1,
+   "bus": 5,
+   "car": 7,
+   "emergency_other": 4,
+   "motorcycle": 0
+  },
+  "auto_rickshaw": {
+   "ambulance": 0,
+   "auto_rickshaw": 36,
+   "bus": 1,
+   "car": 2,
+   "emergency_other": 0,
+   "motorcycle": 1
+  },
+  "bus": {
+   "ambulance": 1,
+   "auto_rickshaw": 2,
+   "bus": 77,
+   "car": 3,
+   "emergency_other": 0,
+   "motorcycle": 0
+  },
+  "car": {
+   "ambulance": 4,
+   "auto_rickshaw": 4,
+   "bus": 10,
+   "car": 476,
+   "emergency_other": 3,
+   "motorcycle": 2
+  },
+  "emergency_other": {
+   "ambulance": 0,
+   "auto_rickshaw": 0,
+   "bus": 0,
+   "car": 4,
+   "emergency_other": 40,
+   "motorcycle": 0
+  },
+  "motorcycle": {
+   "ambulance": 0,
+   "auto_rickshaw": 5,
+   "bus": 1,
+   "car": 4,
+   "emergency_other": 0,
+   "motorcycle": 130
+  }
+ },
+ "stripe_shortcut_check": {
+  "non_ambulance_crops": 806,
+  "called_ambulance_plain": 5,
+  "called_ambulance_with_painted_stripe": 3
+ },
+ "fusion_params": {
+  "bias": 2.3249679651503836,
+  "w": {
+   "cls_logit": 0.7307928177163959,
+   "text": 1.24886257106385,
+   "beacon": 0.9781351657176894,
+   "livery": 0.5153198877972107,
+   "model": 1.5
+  },
+  "threshold": 0.91,
+  "fitted_on": "838 validation crops (138 ambulances)",
+  "ocr": true
+ },
+ "previous_open_vocab_model": {
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "false_alarm_rate": 0.0,
+  "tp": 0,
+  "fp": 0,
+  "fn": 103,
+  "tn": 806
+ }
+}

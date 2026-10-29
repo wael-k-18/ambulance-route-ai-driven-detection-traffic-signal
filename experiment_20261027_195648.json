@@ -1,0 +1,1400 @@
+{
+ "created_at": "2026-10-27T19:56:48.603627+00:00",
+ "network": "ResQRoute demo grid (Nerul\u2013Seawoods area)",
+ "engine": "builtin",
+ "demands": [
+  "low",
+  "medium",
+  "high"
+ ],
+ "seeds": [
+  1,
+  2,
+  3
+ ],
+ "scenario": {
+  "base_id": "A1",
+  "pickup_node": "n23",
+  "hospital_id": "H2"
+ },
+ "warmup_s": 300,
+ "wall_time_s": 17.8,
+ "summary": {
+  "by_demand": {
+   "low": {
+    "baseline": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": 300.67,
+      "sd": 27.14,
+      "ci95": 67.37
+     },
+     "total_time_s": {
+      "n": 3,
+      "mean": 330.67,
+      "sd": 27.14,
+      "ci95": 67.37
+     },
+     "to_pickup_s": {
+      "n": 3,
+      "mean": 162.67,
+      "sd": 27.14,
+      "ci95": 67.37
+     },
+     "to_hospital_s": {
+      "n": 3,
+      "mean": 138.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "stops": {
+      "n": 3,
+      "mean": 1.33,
+      "sd": 0.58,
+      "ci95": 1.43
+     },
+     "waiting_s": {
+      "n": 3,
+      "mean": 20.33,
+      "sd": 13.57,
+      "ci95": 33.68
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": 37.7,
+      "sd": 25.98,
+      "ci95": 64.5
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": 38.88,
+      "sd": 2.75,
+      "ci95": 6.82
+     },
+     "max_cross_queue": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_recovery_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "recoveries_timeout": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "completed": 3,
+     "runs": 3
+    },
+    "priority": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": 269.0,
+      "sd": 4.92,
+      "ci95": 12.23
+     },
+     "total_time_s": {
+      "n": 3,
+      "mean": 299.0,
+      "sd": 4.92,
+      "ci95": 12.23
+     },
+     "to_pickup_s": {
+      "n": 3,
+      "mean": 128.17,
+      "sd": 1.26,
+      "ci95": 3.12
+     },
+     "to_hospital_s": {
+      "n": 3,
+      "mean": 140.83,
+      "sd": 3.69,
+      "ci95": 9.15
+     },
+     "stops": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "waiting_s": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": 3.53,
+      "sd": 1.04,
+      "ci95": 2.58
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": 38.92,
+      "sd": 1.36,
+      "ci95": 3.38
+     },
+     "max_cross_queue": {
+      "n": 3,
+      "mean": 1.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_recovery_s": {
+      "n": 3,
+      "mean": 4.1,
+      "sd": 5.54,
+      "ci95": 13.76
+     },
+     "recoveries_timeout": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 3,
+      "mean": 6.47,
+      "sd": 0.46,
+      "ci95": 1.15
+     },
+     "completed": 3,
+     "runs": 3
+    },
+    "paired_difference": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": -31.67,
+      "sd": 22.41,
+      "ci95": 55.63
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": -34.17,
+      "sd": 24.97,
+      "ci95": 61.99
+     },
+     "stops": {
+      "n": 3,
+      "mean": -1.33,
+      "sd": 0.58,
+      "ci95": 1.43
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": 0.04,
+      "sd": 1.91,
+      "ci95": 4.73
+     }
+    },
+    "drive_time_reduction_pct": 10.5
+   },
+   "medium": {
+    "baseline": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": 327.17,
+      "sd": 40.03,
+      "ci95": 99.38
+     },
+     "total_time_s": {
+      "n": 3,
+      "mean": 357.17,
+      "sd": 40.03,
+      "ci95": 99.38
+     },
+     "to_pickup_s": {
+      "n": 3,
+      "mean": 171.33,
+      "sd": 38.71,
+      "ci95": 96.11
+     },
+     "to_hospital_s": {
+      "n": 3,
+      "mean": 155.83,
+      "sd": 8.25,
+      "ci95": 20.48
+     },
+     "stops": {
+      "n": 3,
+      "mean": 1.67,
+      "sd": 0.58,
+      "ci95": 1.43
+     },
+     "waiting_s": {
+      "n": 3,
+      "mean": 16.83,
+      "sd": 6.66,
+      "ci95": 16.53
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": 39.53,
+      "sd": 29.16,
+      "ci95": 72.38
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": 41.13,
+      "sd": 3.18,
+      "ci95": 7.9
+     },
+     "max_cross_queue": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_recovery_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "recoveries_timeout": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "completed": 3,
+     "runs": 3
+    },
+    "priority": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": 288.67,
+      "sd": 3.21,
+      "ci95": 7.98
+     },
+     "total_time_s": {
+      "n": 3,
+      "mean": 318.67,
+      "sd": 3.21,
+      "ci95": 7.98
+     },
+     "to_pickup_s": {
+      "n": 3,
+      "mean": 141.5,
+      "sd": 11.03,
+      "ci95": 27.39
+     },
+     "to_hospital_s": {
+      "n": 3,
+      "mean": 147.17,
+      "sd": 8.25,
+      "ci95": 20.48
+     },
+     "stops": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "waiting_s": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": 9.37,
+      "sd": 10.68,
+      "ci95": 26.52
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": 41.06,
+      "sd": 1.23,
+      "ci95": 3.04
+     },
+     "max_cross_queue": {
+      "n": 3,
+      "mean": 3.0,
+      "sd": 1.0,
+      "ci95": 2.48
+     },
+     "mean_recovery_s": {
+      "n": 3,
+      "mean": 4.67,
+      "sd": 4.24,
+      "ci95": 10.53
+     },
+     "recoveries_timeout": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 3,
+      "mean": 11.73,
+      "sd": 8.21,
+      "ci95": 20.39
+     },
+     "completed": 3,
+     "runs": 3
+    },
+    "paired_difference": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": -38.5,
+      "sd": 37.51,
+      "ci95": 93.13
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": -30.17,
+      "sd": 18.48,
+      "ci95": 45.87
+     },
+     "stops": {
+      "n": 3,
+      "mean": -1.67,
+      "sd": 0.58,
+      "ci95": 1.43
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": -0.06,
+      "sd": 2.23,
+      "ci95": 5.52
+     }
+    },
+    "drive_time_reduction_pct": 11.8
+   },
+   "high": {
+    "baseline": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": 349.5,
+      "sd": 31.78,
+      "ci95": 78.89
+     },
+     "total_time_s": {
+      "n": 3,
+      "mean": 379.5,
+      "sd": 31.78,
+      "ci95": 78.89
+     },
+     "to_pickup_s": {
+      "n": 3,
+      "mean": 183.17,
+      "sd": 25.87,
+      "ci95": 64.22
+     },
+     "to_hospital_s": {
+      "n": 3,
+      "mean": 166.33,
+      "sd": 20.03,
+      "ci95": 49.73
+     },
+     "stops": {
+      "n": 3,
+      "mean": 1.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "waiting_s": {
+      "n": 3,
+      "mean": 14.5,
+      "sd": 1.8,
+      "ci95": 4.48
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": 52.7,
+      "sd": 25.98,
+      "ci95": 64.5
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": 44.41,
+      "sd": 0.85,
+      "ci95": 2.1
+     },
+     "max_cross_queue": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_recovery_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "recoveries_timeout": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "completed": 3,
+     "runs": 3
+    },
+    "priority": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": 327.67,
+      "sd": 16.74,
+      "ci95": 41.57
+     },
+     "total_time_s": {
+      "n": 3,
+      "mean": 357.67,
+      "sd": 16.74,
+      "ci95": 41.57
+     },
+     "to_pickup_s": {
+      "n": 3,
+      "mean": 160.0,
+      "sd": 20.75,
+      "ci95": 51.53
+     },
+     "to_hospital_s": {
+      "n": 3,
+      "mean": 167.67,
+      "sd": 10.8,
+      "ci95": 26.81
+     },
+     "stops": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "waiting_s": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": 25.03,
+      "sd": 19.76,
+      "ci95": 49.06
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": 42.38,
+      "sd": 2.79,
+      "ci95": 6.93
+     },
+     "max_cross_queue": {
+      "n": 3,
+      "mean": 2.0,
+      "sd": 1.0,
+      "ci95": 2.48
+     },
+     "mean_recovery_s": {
+      "n": 3,
+      "mean": 8.0,
+      "sd": 10.46,
+      "ci95": 25.97
+     },
+     "recoveries_timeout": {
+      "n": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 3,
+      "mean": 14.6,
+      "sd": 6.0,
+      "ci95": 14.9
+     },
+     "completed": 3,
+     "runs": 3
+    },
+    "paired_difference": {
+     "drive_time_s": {
+      "n": 3,
+      "mean": -21.83,
+      "sd": 36.52,
+      "ci95": 90.66
+     },
+     "signal_delay_s": {
+      "n": 3,
+      "mean": -27.67,
+      "sd": 9.12,
+      "ci95": 22.63
+     },
+     "stops": {
+      "n": 3,
+      "mean": -1.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "bg_mean_time_loss_s": {
+      "n": 3,
+      "mean": -2.03,
+      "sd": 2.13,
+      "ci95": 5.28
+     }
+    },
+    "drive_time_reduction_pct": 6.2
+   }
+  },
+  "safety_violations_total": 0
+ },
+ "trials": [
+  {
+   "demand": "low",
+   "seed": 1,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 133,
+   "bg_mean_time_loss_s": 42.03,
+   "bg_p95_time_loss_s": 101.5,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 1,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 267.5,
+   "total_time_s": 297.5,
+   "to_pickup_s": 128.0,
+   "to_hospital_s": 139.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 10.5,
+   "max_cross_queue": 1.0,
+   "bg_trips": 134,
+   "bg_mean_time_loss_s": 40.01,
+   "bg_p95_time_loss_s": 100.08,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 2,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 128,
+   "bg_mean_time_loss_s": 37.61,
+   "bg_p95_time_loss_s": 102.05,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 2,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 265.0,
+   "total_time_s": 295.0,
+   "to_pickup_s": 127.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 2.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 1.0,
+   "max_cross_queue": 1.0,
+   "bg_trips": 127,
+   "bg_mean_time_loss_s": 39.35,
+   "bg_p95_time_loss_s": 98.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 0.6,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 3,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 332.0,
+   "total_time_s": 362.0,
+   "to_pickup_s": 194.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 36.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 131,
+   "bg_mean_time_loss_s": 36.99,
+   "bg_p95_time_loss_s": 115.44,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 3,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 274.5,
+   "total_time_s": 304.5,
+   "to_pickup_s": 129.5,
+   "to_hospital_s": 145.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 4.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 7.0,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 1.0,
+   "bg_trips": 132,
+   "bg_mean_time_loss_s": 37.39,
+   "bg_p95_time_loss_s": 115.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 1,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 314.5,
+   "total_time_s": 344.5,
+   "to_pickup_s": 150.5,
+   "to_hospital_s": 164.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 13.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 290,
+   "bg_mean_time_loss_s": 42.22,
+   "bg_p95_time_loss_s": 107.55,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 1,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 290.0,
+   "total_time_s": 320.0,
+   "to_pickup_s": 140.5,
+   "to_hospital_s": 149.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 2.0,
+   "bg_trips": 292,
+   "bg_mean_time_loss_s": 42.12,
+   "bg_p95_time_loss_s": 104.6,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 2,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 295.0,
+   "total_time_s": 325.0,
+   "to_pickup_s": 147.5,
+   "to_hospital_s": 147.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 247,
+   "bg_mean_time_loss_s": 37.54,
+   "bg_p95_time_loss_s": 109.27,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 2,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 131.0,
+   "to_hospital_s": 154.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 7.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 9.2,
+   "max_cross_queue": 3.0,
+   "bg_trips": 250,
+   "bg_mean_time_loss_s": 39.72,
+   "bg_p95_time_loss_s": 107.75,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 3,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 372.0,
+   "total_time_s": 402.0,
+   "to_pickup_s": 216.0,
+   "to_hospital_s": 156.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 24.5,
+   "signal_delay_s": 73.2,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 272,
+   "bg_mean_time_loss_s": 43.62,
+   "bg_p95_time_loss_s": 122.7,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 27.6,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 3,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 291.0,
+   "total_time_s": 321.0,
+   "to_pickup_s": 153.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 21.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 21.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 4.0,
+   "max_cross_queue": 4.0,
+   "bg_trips": 275,
+   "bg_mean_time_loss_s": 41.35,
+   "bg_p95_time_loss_s": 108.05,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 7.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 14.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 1,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 382.0,
+   "total_time_s": 412.0,
+   "to_pickup_s": 195.0,
+   "to_hospital_s": 187.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 16.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 434,
+   "bg_mean_time_loss_s": 44.73,
+   "bg_p95_time_loss_s": 122.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 1,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 318.0,
+   "total_time_s": 348.0,
+   "to_pickup_s": 160.5,
+   "to_hospital_s": 157.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 30.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 14.8,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 3.2,
+   "max_cross_queue": 3.0,
+   "bg_trips": 434,
+   "bg_mean_time_loss_s": 41.65,
+   "bg_p95_time_loss_s": 105.64,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 15.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 15.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 2,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 348.0,
+   "total_time_s": 378.0,
+   "to_pickup_s": 201.0,
+   "to_hospital_s": 147.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 15.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 389,
+   "bg_mean_time_loss_s": 43.45,
+   "bg_p95_time_loss_s": 111.14,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 24.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 43.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 2,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 347.0,
+   "total_time_s": 377.0,
+   "to_pickup_s": 180.5,
+   "to_hospital_s": 166.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 41.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 20.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 20.0,
+   "max_cross_queue": 2.0,
+   "bg_trips": 390,
+   "bg_mean_time_loss_s": 40.03,
+   "bg_p95_time_loss_s": 100.7,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 21.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 20.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 3,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 318.5,
+   "total_time_s": 348.5,
+   "to_pickup_s": 153.5,
+   "to_hospital_s": 165.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 419,
+   "bg_mean_time_loss_s": 45.05,
+   "bg_p95_time_loss_s": 113.15,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 3,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 318.0,
+   "total_time_s": 348.0,
+   "to_pickup_s": 139.0,
+   "to_hospital_s": 179.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 8.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 1.0,
+   "bg_trips": 422,
+   "bg_mean_time_loss_s": 45.47,
+   "bg_p95_time_loss_s": 106.88,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  }
+ ]
+}

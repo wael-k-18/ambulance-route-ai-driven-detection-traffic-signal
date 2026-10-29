@@ -1,0 +1,54 @@
+{
+ "test_set": "/home/claude/datasets/HariPrashanna-07_Ambulance_dataset/Ambulance.v1i.yolov11/test/images",
+ "photos": 200,
+ "skipped_near_duplicates": 121,
+ "previous": {
+  "photos": 200,
+  "seconds_per_photo": 0.6,
+  "vehicle_recall": 0.696,
+  "labelled_vehicles": 161,
+  "ambulance_recall": 0.26,
+  "labelled_ambulances": 73,
+  "ambulance_precision": 0.364,
+  "ambulance_precision_siren_aware": 0.382,
+  "reported_ambulances": 55,
+  "false_alarm_photos": "19/103",
+  "false_alarm_rate": 0.184,
+  "false_alarm_examples": [
+   "040K5WWVYI4U_jpg.rf.da67d1159940517b830021505ee98313.jpg",
+   "110_jpg.rf.52cc72e67f0781803eb7f8b3a6b712c2.jpg",
+   "148_jpg.rf.aeab343604d65d182d529f0c04974dbe.jpg",
+   "16_jpg.rf.1b66c0bb5b93e44a940301ec4702e430.jpg",
+   "1_jpg.rf.06947dfb0a239b9e0dbb1423bf90dd83.jpg",
+   "20210513_18_48_44_000_rgET72M4eBR1BT45M9CxpJR82723_T_4608_3456_jpg.rf.068171c40667da258c00e668de24df0c.jpg",
+   "20210526_08_15_29_000_RxDrOP3sM5bgeexgdR8KBLhecgQ2_F_3000_4000_jpg.rf.b2c85e03ba8b82f99f8ba34d17d2d18e.jpg",
+   "21_jpg.rf.04d989ce58ddbe36210c21172f173492.jpg",
+   "28_jpg.rf.26c74ec2adb820a47fbe4c7e56ce2536.jpg",
+   "28_jpg.rf.c738ee1615290d754ae631a92409b000.jpg"
+  ]
+ },
+ "new": {
+  "photos": 200,
+  "seconds_per_photo": 5.17,
+  "vehicle_recall": 0.938,
+  "labelled_vehicles": 161,
+  "ambulance_recall": 0.822,
+  "labelled_ambulances": 73,
+  "ambulance_precision": 0.625,
+  "ambulance_precision_siren_aware": 0.771,
+  "reported_ambulances": 96,
+  "false_alarm_photos": "8/103",
+  "false_alarm_rate": 0.078,
+  "false_alarm_examples": [
+   "0R0TTHGF8VF2_jpg.rf.430a057b2eae60d091f4d8e247f1e605.jpg",
+   "20210514_18_54_26_000_uA7x1XuBPngcHFRu7KambGvmgt62_F_5632_4224_jpg.rf.3c16ea6fc05ee9e4c73bda45dbbfb647.jpg",
+   "20210526_08_15_29_000_RxDrOP3sM5bgeexgdR8KBLhecgQ2_F_3000_4000_jpg.rf.b2c85e03ba8b82f99f8ba34d17d2d18e.jpg",
+   "2bkj190_jpg.rf.c9121e624c29dc25d5d93cfcd64e728d.jpg",
+   "3UL3KHRD3SYU_jpg.rf.cf50be24d67a2bf8689df83d2638ee7a.jpg",
+   "45_jpg.rf.2c6ddee42e29f402c927294b255d2618.jpg",
+   "4FWK760E72ZJ_jpg.rf.5679c9c1669349e8e08beacb9e9f4373.jpg",
+   "4X79Z5X9C39C_jpg.rf.b1cb22b8db07a410f2773a6519f454df.jpg"
+  ]
+ },
+ "note": "Of the 8 'false alarm' photos for the new pipeline, 4 contain real but unlabelled ambulances (checked by eye: 0R0TTHGF8VF2, 2bkj190, 3UL3KHRD3SYU, 4X79Z5X9C39C). True false alarms: 4/103 (a white SUV, a small white van, a small truck, the back of a white bus). Precision numbers are therefore lower bounds."
+}

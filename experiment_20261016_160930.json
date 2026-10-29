@@ -1,0 +1,3339 @@
+{
+ "created_at": "2026-10-16T16:09:30.155987+00:00",
+ "network": "ResQRoute demo grid (Nerul\u2013Seawoods area)",
+ "engine": "builtin",
+ "demands": [
+  "low",
+  "medium",
+  "high"
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "scenario": {
+  "base_id": "A1",
+  "pickup_node": "n23",
+  "hospital_id": "H2"
+ },
+ "warmup_s": 300,
+ "wall_time_s": 56.7,
+ "summary": {
+  "by_demand": {
+   "low": {
+    "baseline": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": 305.95,
+      "sd": 25.81,
+      "ci95": 18.45
+     },
+     "total_time_s": {
+      "n": 10,
+      "mean": 335.95,
+      "sd": 25.81,
+      "ci95": 18.45
+     },
+     "to_pickup_s": {
+      "n": 10,
+      "mean": 162.1,
+      "sd": 24.57,
+      "ci95": 17.56
+     },
+     "to_hospital_s": {
+      "n": 10,
+      "mean": 143.85,
+      "sd": 9.43,
+      "ci95": 6.74
+     },
+     "stops": {
+      "n": 10,
+      "mean": 1.3,
+      "sd": 0.48,
+      "ci95": 0.35
+     },
+     "waiting_s": {
+      "n": 10,
+      "mean": 19.75,
+      "sd": 11.76,
+      "ci95": 8.41
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": 36.2,
+      "sd": 21.74,
+      "ci95": 15.53
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": 38.19,
+      "sd": 5.4,
+      "ci95": 3.86
+     },
+     "max_cross_queue": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_recovery_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "recoveries_timeout": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "completed": 10,
+     "runs": 10
+    },
+    "priority": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": 276.95,
+      "sd": 16.36,
+      "ci95": 11.69
+     },
+     "total_time_s": {
+      "n": 10,
+      "mean": 306.95,
+      "sd": 16.36,
+      "ci95": 11.69
+     },
+     "to_pickup_s": {
+      "n": 10,
+      "mean": 130.35,
+      "sd": 7.65,
+      "ci95": 5.47
+     },
+     "to_hospital_s": {
+      "n": 10,
+      "mean": 146.6,
+      "sd": 14.18,
+      "ci95": 10.13
+     },
+     "stops": {
+      "n": 10,
+      "mean": 0.1,
+      "sd": 0.32,
+      "ci95": 0.23
+     },
+     "waiting_s": {
+      "n": 10,
+      "mean": 0.1,
+      "sd": 0.32,
+      "ci95": 0.23
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": 5.6,
+      "sd": 7.1,
+      "ci95": 5.08
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": 38.45,
+      "sd": 5.8,
+      "ci95": 4.14
+     },
+     "max_cross_queue": {
+      "n": 10,
+      "mean": 0.5,
+      "sd": 0.53,
+      "ci95": 0.38
+     },
+     "mean_recovery_s": {
+      "n": 10,
+      "mean": 2.8,
+      "sd": 4.06,
+      "ci95": 2.9
+     },
+     "recoveries_timeout": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 10,
+      "mean": 6.42,
+      "sd": 2.12,
+      "ci95": 1.52
+     },
+     "completed": 10,
+     "runs": 10
+    },
+    "paired_difference": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": -29.0,
+      "sd": 24.24,
+      "ci95": 17.32
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": -30.6,
+      "sd": 18.44,
+      "ci95": 13.18
+     },
+     "stops": {
+      "n": 10,
+      "mean": -1.2,
+      "sd": 0.63,
+      "ci95": 0.45
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": 0.26,
+      "sd": 1.47,
+      "ci95": 1.05
+     }
+    },
+    "drive_time_reduction_pct": 9.5
+   },
+   "medium": {
+    "baseline": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": 314.45,
+      "sd": 28.53,
+      "ci95": 20.39
+     },
+     "total_time_s": {
+      "n": 10,
+      "mean": 344.45,
+      "sd": 28.53,
+      "ci95": 20.39
+     },
+     "to_pickup_s": {
+      "n": 10,
+      "mean": 164.95,
+      "sd": 26.76,
+      "ci95": 19.12
+     },
+     "to_hospital_s": {
+      "n": 10,
+      "mean": 149.5,
+      "sd": 10.03,
+      "ci95": 7.17
+     },
+     "stops": {
+      "n": 10,
+      "mean": 1.4,
+      "sd": 0.52,
+      "ci95": 0.37
+     },
+     "waiting_s": {
+      "n": 10,
+      "mean": 19.75,
+      "sd": 11.23,
+      "ci95": 8.02
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": 36.9,
+      "sd": 21.93,
+      "ci95": 15.68
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": 41.44,
+      "sd": 3.77,
+      "ci95": 2.69
+     },
+     "max_cross_queue": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_recovery_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "recoveries_timeout": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "completed": 10,
+     "runs": 10
+    },
+    "priority": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": 284.6,
+      "sd": 11.29,
+      "ci95": 8.07
+     },
+     "total_time_s": {
+      "n": 10,
+      "mean": 314.6,
+      "sd": 11.29,
+      "ci95": 8.07
+     },
+     "to_pickup_s": {
+      "n": 10,
+      "mean": 137.1,
+      "sd": 9.27,
+      "ci95": 6.63
+     },
+     "to_hospital_s": {
+      "n": 10,
+      "mean": 147.5,
+      "sd": 8.86,
+      "ci95": 6.33
+     },
+     "stops": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "waiting_s": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": 8.0,
+      "sd": 8.66,
+      "ci95": 6.19
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": 41.74,
+      "sd": 3.6,
+      "ci95": 2.58
+     },
+     "max_cross_queue": {
+      "n": 10,
+      "mean": 2.2,
+      "sd": 1.32,
+      "ci95": 0.94
+     },
+     "mean_recovery_s": {
+      "n": 10,
+      "mean": 6.5,
+      "sd": 4.49,
+      "ci95": 3.21
+     },
+     "recoveries_timeout": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 10,
+      "mean": 8.96,
+      "sd": 4.58,
+      "ci95": 3.27
+     },
+     "completed": 10,
+     "runs": 10
+    },
+    "paired_difference": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": -29.85,
+      "sd": 25.35,
+      "ci95": 18.12
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": -28.9,
+      "sd": 16.25,
+      "ci95": 11.61
+     },
+     "stops": {
+      "n": 10,
+      "mean": -1.4,
+      "sd": 0.52,
+      "ci95": 0.37
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": 0.3,
+      "sd": 1.39,
+      "ci95": 0.99
+     }
+    },
+    "drive_time_reduction_pct": 9.5
+   },
+   "high": {
+    "baseline": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": 354.95,
+      "sd": 29.63,
+      "ci95": 21.17
+     },
+     "total_time_s": {
+      "n": 10,
+      "mean": 384.95,
+      "sd": 29.63,
+      "ci95": 21.17
+     },
+     "to_pickup_s": {
+      "n": 10,
+      "mean": 193.35,
+      "sd": 21.97,
+      "ci95": 15.7
+     },
+     "to_hospital_s": {
+      "n": 10,
+      "mean": 161.6,
+      "sd": 15.35,
+      "ci95": 10.97
+     },
+     "stops": {
+      "n": 10,
+      "mean": 1.5,
+      "sd": 0.53,
+      "ci95": 0.38
+     },
+     "waiting_s": {
+      "n": 10,
+      "mean": 22.4,
+      "sd": 9.72,
+      "ci95": 6.95
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": 59.7,
+      "sd": 19.02,
+      "ci95": 13.59
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": 44.24,
+      "sd": 2.38,
+      "ci95": 1.7
+     },
+     "max_cross_queue": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_recovery_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "recoveries_timeout": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "ci95": null
+     },
+     "completed": 10,
+     "runs": 10
+    },
+    "priority": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": 318.0,
+      "sd": 29.08,
+      "ci95": 20.78
+     },
+     "total_time_s": {
+      "n": 10,
+      "mean": 348.0,
+      "sd": 29.08,
+      "ci95": 20.78
+     },
+     "to_pickup_s": {
+      "n": 10,
+      "mean": 154.45,
+      "sd": 14.94,
+      "ci95": 10.67
+     },
+     "to_hospital_s": {
+      "n": 10,
+      "mean": 163.55,
+      "sd": 20.65,
+      "ci95": 14.76
+     },
+     "stops": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "waiting_s": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": 23.15,
+      "sd": 14.22,
+      "ci95": 10.16
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": 42.14,
+      "sd": 2.53,
+      "ci95": 1.81
+     },
+     "max_cross_queue": {
+      "n": 10,
+      "mean": 3.1,
+      "sd": 2.08,
+      "ci95": 1.49
+     },
+     "mean_recovery_s": {
+      "n": 10,
+      "mean": 5.06,
+      "sd": 5.96,
+      "ci95": 4.26
+     },
+     "recoveries_timeout": {
+      "n": 10,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95": 0.0
+     },
+     "mean_hold_s": {
+      "n": 10,
+      "mean": 15.06,
+      "sd": 3.87,
+      "ci95": 2.77
+     },
+     "completed": 10,
+     "runs": 10
+    },
+    "paired_difference": {
+     "drive_time_s": {
+      "n": 10,
+      "mean": -36.95,
+      "sd": 31.74,
+      "ci95": 22.69
+     },
+     "signal_delay_s": {
+      "n": 10,
+      "mean": -36.55,
+      "sd": 13.05,
+      "ci95": 9.33
+     },
+     "stops": {
+      "n": 10,
+      "mean": -1.5,
+      "sd": 0.53,
+      "ci95": 0.38
+     },
+     "bg_mean_time_loss_s": {
+      "n": 10,
+      "mean": -2.1,
+      "sd": 1.44,
+      "ci95": 1.03
+     }
+    },
+    "drive_time_reduction_pct": 10.4
+   }
+  },
+  "safety_violations_total": 0
+ },
+ "trials": [
+  {
+   "demand": "low",
+   "seed": 1,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 133,
+   "bg_mean_time_loss_s": 42.03,
+   "bg_p95_time_loss_s": 101.5,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 1,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 267.5,
+   "total_time_s": 297.5,
+   "to_pickup_s": 128.0,
+   "to_hospital_s": 139.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 10.5,
+   "max_cross_queue": 1.0,
+   "bg_trips": 134,
+   "bg_mean_time_loss_s": 40.01,
+   "bg_p95_time_loss_s": 100.08,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 2,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 128,
+   "bg_mean_time_loss_s": 37.61,
+   "bg_p95_time_loss_s": 102.05,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 2,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 265.0,
+   "total_time_s": 295.0,
+   "to_pickup_s": 127.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 2.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 1.0,
+   "max_cross_queue": 1.0,
+   "bg_trips": 127,
+   "bg_mean_time_loss_s": 39.35,
+   "bg_p95_time_loss_s": 98.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 0.6,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 3,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 332.0,
+   "total_time_s": 362.0,
+   "to_pickup_s": 194.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 36.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 131,
+   "bg_mean_time_loss_s": 36.99,
+   "bg_p95_time_loss_s": 115.44,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 3,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 274.5,
+   "total_time_s": 304.5,
+   "to_pickup_s": 129.5,
+   "to_hospital_s": 145.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 4.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 7.0,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 1.0,
+   "bg_trips": 132,
+   "bg_mean_time_loss_s": 37.39,
+   "bg_p95_time_loss_s": 115.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 4,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 342.5,
+   "total_time_s": 372.5,
+   "to_pickup_s": 204.0,
+   "to_hospital_s": 138.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 40.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 124,
+   "bg_mean_time_loss_s": 29.93,
+   "bg_p95_time_loss_s": 98.54,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 4,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 267.0,
+   "total_time_s": 297.0,
+   "to_pickup_s": 129.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 4.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 5.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 0.0,
+   "bg_trips": 122,
+   "bg_mean_time_loss_s": 30.01,
+   "bg_p95_time_loss_s": 98.54,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 5,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 311.5,
+   "total_time_s": 341.5,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 164.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 149,
+   "bg_mean_time_loss_s": 31.76,
+   "bg_p95_time_loss_s": 93.37,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 5,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 311.5,
+   "total_time_s": 341.5,
+   "to_pickup_s": 127.5,
+   "to_hospital_s": 184.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 1.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 4.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 0.0,
+   "bg_trips": 148,
+   "bg_mean_time_loss_s": 32.24,
+   "bg_p95_time_loss_s": 100.64,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 6,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 348.0,
+   "total_time_s": 378.0,
+   "to_pickup_s": 194.5,
+   "to_hospital_s": 153.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 34.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 135,
+   "bg_mean_time_loss_s": 36.29,
+   "bg_p95_time_loss_s": 115.5,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 25.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 42.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 6,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 300.5,
+   "total_time_s": 330.5,
+   "to_pickup_s": 152.0,
+   "to_hospital_s": 148.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 25.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 12.0,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 1.0,
+   "bg_trips": 137,
+   "bg_mean_time_loss_s": 33.82,
+   "bg_p95_time_loss_s": 100.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 6.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 19.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 7,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 287.0,
+   "total_time_s": 317.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 140.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 137,
+   "bg_mean_time_loss_s": 48.63,
+   "bg_p95_time_loss_s": 132.04,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 7,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 281.5,
+   "total_time_s": 311.5,
+   "to_pickup_s": 128.0,
+   "to_hospital_s": 153.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 1.0,
+   "max_cross_queue": 0.0,
+   "bg_trips": 138,
+   "bg_mean_time_loss_s": 49.53,
+   "bg_p95_time_loss_s": 115.44,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 8,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 299.0,
+   "total_time_s": 329.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 152.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 141,
+   "bg_mean_time_loss_s": 36.88,
+   "bg_p95_time_loss_s": 103.5,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 8,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 265.0,
+   "total_time_s": 295.0,
+   "to_pickup_s": 127.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 2.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 10.5,
+   "max_cross_queue": 1.0,
+   "bg_trips": 140,
+   "bg_mean_time_loss_s": 37.78,
+   "bg_p95_time_loss_s": 102.43,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 0.6,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 9,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 284.5,
+   "total_time_s": 314.5,
+   "to_pickup_s": 146.5,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 137,
+   "bg_mean_time_loss_s": 38.96,
+   "bg_p95_time_loss_s": 101.65,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 9,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 265.5,
+   "total_time_s": 295.5,
+   "to_pickup_s": 127.5,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 4.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 0.0,
+   "bg_trips": 136,
+   "bg_mean_time_loss_s": 39.42,
+   "bg_p95_time_loss_s": 90.7,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 10,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 133,
+   "bg_mean_time_loss_s": 42.85,
+   "bg_p95_time_loss_s": 115.55,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "low",
+   "seed": 10,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 271.5,
+   "total_time_s": 301.5,
+   "to_pickup_s": 128.0,
+   "to_hospital_s": 143.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 2.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 1.0,
+   "max_cross_queue": 0.0,
+   "bg_trips": 133,
+   "bg_mean_time_loss_s": 44.99,
+   "bg_p95_time_loss_s": 116.38,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 0.6,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 1,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 314.5,
+   "total_time_s": 344.5,
+   "to_pickup_s": 150.5,
+   "to_hospital_s": 164.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 13.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 290,
+   "bg_mean_time_loss_s": 42.22,
+   "bg_p95_time_loss_s": 107.55,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 1,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 290.0,
+   "total_time_s": 320.0,
+   "to_pickup_s": 140.5,
+   "to_hospital_s": 149.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 2.0,
+   "bg_trips": 292,
+   "bg_mean_time_loss_s": 42.12,
+   "bg_p95_time_loss_s": 104.6,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 2,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 295.0,
+   "total_time_s": 325.0,
+   "to_pickup_s": 147.5,
+   "to_hospital_s": 147.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 247,
+   "bg_mean_time_loss_s": 37.54,
+   "bg_p95_time_loss_s": 109.27,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 2,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 131.0,
+   "to_hospital_s": 154.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 7.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 9.2,
+   "max_cross_queue": 3.0,
+   "bg_trips": 250,
+   "bg_mean_time_loss_s": 39.72,
+   "bg_p95_time_loss_s": 107.75,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 3,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 372.0,
+   "total_time_s": 402.0,
+   "to_pickup_s": 216.0,
+   "to_hospital_s": 156.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 24.5,
+   "signal_delay_s": 73.2,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 272,
+   "bg_mean_time_loss_s": 43.62,
+   "bg_p95_time_loss_s": 122.7,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 27.6,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 3,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 291.0,
+   "total_time_s": 321.0,
+   "to_pickup_s": 153.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 21.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 21.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 4.0,
+   "max_cross_queue": 4.0,
+   "bg_trips": 275,
+   "bg_mean_time_loss_s": 41.35,
+   "bg_p95_time_loss_s": 108.05,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 7.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 14.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 4,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 331.5,
+   "total_time_s": 361.5,
+   "to_pickup_s": 193.0,
+   "to_hospital_s": 138.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 43.0,
+   "signal_delay_s": 64.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 260,
+   "bg_mean_time_loss_s": 35.45,
+   "bg_p95_time_loss_s": 95.89,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 42.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 4,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 292.0,
+   "total_time_s": 322.0,
+   "to_pickup_s": 152.5,
+   "to_hospital_s": 139.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 26.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 10.8,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 1.0,
+   "bg_trips": 262,
+   "bg_mean_time_loss_s": 35.49,
+   "bg_p95_time_loss_s": 90.05,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 23.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 5,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 286.5,
+   "total_time_s": 316.5,
+   "to_pickup_s": 148.5,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 14.5,
+   "signal_delay_s": 24.2,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 280,
+   "bg_mean_time_loss_s": 38.38,
+   "bg_p95_time_loss_s": 97.55,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 2.1,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 5,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 270.5,
+   "total_time_s": 300.5,
+   "to_pickup_s": 129.5,
+   "to_hospital_s": 141.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 5.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 5.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 12.0,
+   "max_cross_queue": 0.0,
+   "bg_trips": 284,
+   "bg_mean_time_loss_s": 37.8,
+   "bg_p95_time_loss_s": 97.87,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.6,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 6,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 348.5,
+   "total_time_s": 378.5,
+   "to_pickup_s": 199.5,
+   "to_hospital_s": 149.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 36.5,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 273,
+   "bg_mean_time_loss_s": 44.6,
+   "bg_p95_time_loss_s": 118.75,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 6,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 136.0,
+   "to_hospital_s": 149.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 4.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 7.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 10.8,
+   "max_cross_queue": 4.0,
+   "bg_trips": 276,
+   "bg_mean_time_loss_s": 46.05,
+   "bg_p95_time_loss_s": 115.2,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 7,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 311.0,
+   "total_time_s": 341.0,
+   "to_pickup_s": 148.5,
+   "to_hospital_s": 162.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 258,
+   "bg_mean_time_loss_s": 46.48,
+   "bg_p95_time_loss_s": 119.14,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 7,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 277.0,
+   "total_time_s": 307.0,
+   "to_pickup_s": 131.0,
+   "to_hospital_s": 146.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 9.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 7.2,
+   "max_cross_queue": 2.0,
+   "bg_trips": 258,
+   "bg_mean_time_loss_s": 46.22,
+   "bg_p95_time_loss_s": 112.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 8,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 308.0,
+   "total_time_s": 338.0,
+   "to_pickup_s": 150.5,
+   "to_hospital_s": 157.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 14.0,
+   "signal_delay_s": 24.2,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 296,
+   "bg_mean_time_loss_s": 44.74,
+   "bg_p95_time_loss_s": 116.25,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 2.1,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 8,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 305.5,
+   "total_time_s": 335.5,
+   "to_pickup_s": 139.5,
+   "to_hospital_s": 166.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 4.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 7.2,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 1.0,
+   "bg_trips": 293,
+   "bg_mean_time_loss_s": 45.69,
+   "bg_p95_time_loss_s": 114.88,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 9,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 285.0,
+   "total_time_s": 315.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 138.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 277,
+   "bg_mean_time_loss_s": 43.35,
+   "bg_p95_time_loss_s": 118.43,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 9,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 266.5,
+   "total_time_s": 296.5,
+   "to_pickup_s": 128.0,
+   "to_hospital_s": 138.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 2.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 6.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 10.2,
+   "max_cross_queue": 3.0,
+   "bg_trips": 279,
+   "bg_mean_time_loss_s": 42.81,
+   "bg_p95_time_loss_s": 116.88,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 0.6,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 10,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 292.5,
+   "total_time_s": 322.5,
+   "to_pickup_s": 148.5,
+   "to_hospital_s": 144.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 14.0,
+   "signal_delay_s": 24.2,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 274,
+   "bg_mean_time_loss_s": 37.98,
+   "bg_p95_time_loss_s": 103.04,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 2.1,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "medium",
+   "seed": 10,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 283.5,
+   "total_time_s": 313.5,
+   "to_pickup_s": 130.0,
+   "to_hospital_s": 153.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 4.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 8.0,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 9.2,
+   "max_cross_queue": 2.0,
+   "bg_trips": 274,
+   "bg_mean_time_loss_s": 40.14,
+   "bg_p95_time_loss_s": 107.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 1,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 382.0,
+   "total_time_s": 412.0,
+   "to_pickup_s": 195.0,
+   "to_hospital_s": 187.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 16.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 434,
+   "bg_mean_time_loss_s": 44.73,
+   "bg_p95_time_loss_s": 122.0,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 1,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 318.0,
+   "total_time_s": 348.0,
+   "to_pickup_s": 160.5,
+   "to_hospital_s": 157.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 30.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 14.8,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 3.2,
+   "max_cross_queue": 3.0,
+   "bg_trips": 434,
+   "bg_mean_time_loss_s": 41.65,
+   "bg_p95_time_loss_s": 105.64,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 15.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 15.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 2,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 348.0,
+   "total_time_s": 378.0,
+   "to_pickup_s": 201.0,
+   "to_hospital_s": 147.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 15.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 389,
+   "bg_mean_time_loss_s": 43.45,
+   "bg_p95_time_loss_s": 111.14,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 24.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 43.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 2,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 347.0,
+   "total_time_s": 377.0,
+   "to_pickup_s": 180.5,
+   "to_hospital_s": 166.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 41.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 20.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 20.0,
+   "max_cross_queue": 2.0,
+   "bg_trips": 390,
+   "bg_mean_time_loss_s": 40.03,
+   "bg_p95_time_loss_s": 100.7,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 21.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 20.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 3,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 318.5,
+   "total_time_s": 348.5,
+   "to_pickup_s": 153.5,
+   "to_hospital_s": 165.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 22.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 419,
+   "bg_mean_time_loss_s": 45.05,
+   "bg_p95_time_loss_s": 113.15,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 19.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 3.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 3,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 318.0,
+   "total_time_s": 348.0,
+   "to_pickup_s": 139.0,
+   "to_hospital_s": 179.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 3.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 8.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 1.0,
+   "bg_trips": 422,
+   "bg_mean_time_loss_s": 45.47,
+   "bg_p95_time_loss_s": 106.88,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 2.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 4,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 360.5,
+   "total_time_s": 390.5,
+   "to_pickup_s": 195.0,
+   "to_hospital_s": 165.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 28.0,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 377,
+   "bg_mean_time_loss_s": 40.53,
+   "bg_p95_time_loss_s": 107.29,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 4,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 289.5,
+   "total_time_s": 319.5,
+   "to_pickup_s": 149.5,
+   "to_hospital_s": 140.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 24.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 13.0,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 1.0,
+   "max_cross_queue": 1.0,
+   "bg_trips": 377,
+   "bg_mean_time_loss_s": 39.91,
+   "bg_p95_time_loss_s": 96.54,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 11.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 13.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 5,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 292.0,
+   "total_time_s": 322.0,
+   "to_pickup_s": 153.5,
+   "to_hospital_s": 138.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 14.0,
+   "signal_delay_s": 24.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 394,
+   "bg_mean_time_loss_s": 42.47,
+   "bg_p95_time_loss_s": 109.5,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 22.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 2.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 5,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 278.0,
+   "total_time_s": 308.0,
+   "to_pickup_s": 139.5,
+   "to_hospital_s": 138.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 4.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 10.0,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 8.8,
+   "max_cross_queue": 4.0,
+   "bg_trips": 397,
+   "bg_mean_time_loss_s": 41.6,
+   "bg_p95_time_loss_s": 108.15,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 3.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 1.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 6,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 366.0,
+   "total_time_s": 396.0,
+   "to_pickup_s": 205.5,
+   "to_hospital_s": 160.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 38.5,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 396,
+   "bg_mean_time_loss_s": 45.12,
+   "bg_p95_time_loss_s": 121.7,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 24.6,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 43.1,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 6,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 304.0,
+   "total_time_s": 334.0,
+   "to_pickup_s": 136.5,
+   "to_hospital_s": 167.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 7.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 18.0,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 1.0,
+   "max_cross_queue": 2.0,
+   "bg_trips": 394,
+   "bg_mean_time_loss_s": 42.11,
+   "bg_p95_time_loss_s": 113.37,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 1.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 6.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 7,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 389.0,
+   "total_time_s": 419.0,
+   "to_pickup_s": 212.0,
+   "to_hospital_s": 177.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 23.0,
+   "signal_delay_s": 70.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 426,
+   "bg_mean_time_loss_s": 48.73,
+   "bg_p95_time_loss_s": 124.54,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 25.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.6,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 7,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 369.5,
+   "total_time_s": 399.5,
+   "to_pickup_s": 167.5,
+   "to_hospital_s": 202.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 30.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 17.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 4.0,
+   "max_cross_queue": 5.0,
+   "bg_trips": 429,
+   "bg_mean_time_loss_s": 45.26,
+   "bg_p95_time_loss_s": 109.39,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 12.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 18.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 8,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 376.0,
+   "total_time_s": 406.0,
+   "to_pickup_s": 208.5,
+   "to_hospital_s": 167.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 33.5,
+   "signal_delay_s": 67.7,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 405,
+   "bg_mean_time_loss_s": 46.83,
+   "bg_p95_time_loss_s": 118.94,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 24.6,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 43.1,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 8,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 287.0,
+   "total_time_s": 317.0,
+   "to_pickup_s": 147.0,
+   "to_hospital_s": 140.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 19.7,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 13.0,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 7.5,
+   "max_cross_queue": 7.0,
+   "bg_trips": 405,
+   "bg_mean_time_loss_s": 45.74,
+   "bg_p95_time_loss_s": 109.5,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 6.6,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 13.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 9,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 363.5,
+   "total_time_s": 393.5,
+   "to_pickup_s": 197.0,
+   "to_hospital_s": 166.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 1,
+   "waiting_s": 12.5,
+   "signal_delay_s": 70.2,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 398,
+   "bg_mean_time_loss_s": 42.16,
+   "bg_p95_time_loss_s": 112.6,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 25.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.1,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 9,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 333.5,
+   "total_time_s": 363.5,
+   "to_pickup_s": 170.5,
+   "to_hospital_s": 163.0,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 42.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 17.8,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 0.8,
+   "max_cross_queue": 1.0,
+   "bg_trips": 401,
+   "bg_mean_time_loss_s": 38.6,
+   "bg_p95_time_loss_s": 97.65,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 17.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 25.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 10,
+   "priority": false,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 354.0,
+   "total_time_s": 384.0,
+   "to_pickup_s": 212.5,
+   "to_hospital_s": 141.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 2,
+   "waiting_s": 31.0,
+   "signal_delay_s": 70.2,
+   "priority_requests": 0,
+   "priority_timeouts": 0,
+   "mean_hold_s": null,
+   "recoveries": 0,
+   "recoveries_completed": 0,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": null,
+   "max_cross_queue": 0.0,
+   "bg_trips": 412,
+   "bg_mean_time_loss_s": 43.37,
+   "bg_p95_time_loss_s": 114.14,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 25.1,
+     "priority": false
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 45.1,
+     "priority": false
+    }
+   ],
+   "failure_reason": null
+  },
+  {
+   "demand": "high",
+   "seed": 10,
+   "priority": true,
+   "engine": "builtin",
+   "status": "COMPLETED",
+   "drive_time_s": 335.5,
+   "total_time_s": 365.5,
+   "to_pickup_s": 154.0,
+   "to_hospital_s": 181.5,
+   "free_flow_s": 265.6,
+   "distance_m": 4278,
+   "stops": 0,
+   "waiting_s": 0.0,
+   "signal_delay_s": 27.2,
+   "priority_requests": 2,
+   "priority_timeouts": 0,
+   "mean_hold_s": 17.5,
+   "recoveries": 2,
+   "recoveries_completed": 2,
+   "recoveries_timeout": 0,
+   "mean_recovery_s": 3.5,
+   "max_cross_queue": 5.0,
+   "bg_trips": 414,
+   "bg_mean_time_loss_s": 41.03,
+   "bg_p95_time_loss_s": 106.5,
+   "safety_violations": 0,
+   "teleports": 0,
+   "intersections": [
+    {
+     "route_index": 0,
+     "node": "n21",
+     "approach": "n20_n21",
+     "delay_s": 7.1,
+     "priority": true
+    },
+    {
+     "route_index": 1,
+     "node": "n22",
+     "approach": "n21_n22",
+     "delay_s": 20.1,
+     "priority": true
+    }
+   ],
+   "failure_reason": null
+  }
+ ]
+}
